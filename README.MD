@@ -8,9 +8,9 @@ Application exposes following REST endpoints
 
 | Http method | Endpoint                                        | Request Example                                   | Description                                                                  |
 |-------------|-------------------------------------------------|---------------------------------------------------|----------------------------------------------------------------|
-| GET         | /account                                        |                                                   | Retreves all clients in the system                            |
-| GET         | /account/{accountId}                            |                                                   | Retreves client with the given ID                             |
-| POST        | /account                                        | {   "name": "account name",   "ballance": "0" }   | Creates new client                               |
+| GET         | /clients                                        |                                                   | Retreves all clients in the system                            |
+| GET         | /clients/{clientsId}                            |                                                   | Retreves client with the given ID                             |
+| POST        | /clients                                        | {   "name": "account name",   "ballance": "0" }   | Creates new client                               |
 | POST        | /transactions                                   | {   "fromId": "1", "toId": "2", amount: "10"  }   | Transfers specified amount from client with id = "fromid" to client with id = "toId"  |
 
 
