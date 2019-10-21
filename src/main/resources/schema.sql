@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS clients (
+  id IDENTITY,
+  client_name VARCHAR(256) NOT NULL,
+  balance DECIMAL(19,4) NOT NULL
+);
